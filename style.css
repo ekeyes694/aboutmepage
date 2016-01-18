@@ -1,0 +1,162 @@
+/* CSS reset
+    (all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/* General styles
+    (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+body {
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #333;
+   border-left: solid 1em #000000;
+  border-right:solid 1em #000000;
+}
+
+.foot,
+.name,
+.head-intro{
+  text-align: center;
+}
+.foot,
+.hometown,
+.intro{
+  font-weight: 300;
+    letter-spacing: 0.05em;
+}
+p{
+  color: white;
+}
+p a:hover,
+li a:hover{
+  color: #FF0000;
+  background-color: #000000;
+}
+p a:visited,
+li a:visited{
+  color: #FFFF00;
+}
+/* Header styles
+    (all the styles inside the < header > or < nav > tags)
+*/
+.head{
+  padding: 10em 0;
+   background-image: url('http://www.freewebheaders.com/wordpress/wp-content/gallery/featured-website-headers/abstract-art-red-background-header-4812.jpg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: cover;
+  border-top: solid 1em #000000;
+  border-bottom: solid 1em #000000;
+  border-left: solid 1em #000000;
+  border-right:solid 1em #000000;
+}
+.head-intro{
+  margin-bottom: 0.1em;
+  color: white; 
+  font-size: 2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  text-shadow:
+    3px 3px 0 #000,
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+.name{
+  margin-top: -0.2em;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  text-shadow:
+    3px 3px 0 #000,
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+.flag{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+/* Content styles
+    (all the styles inside the < sections > or < aside > tags)
+*/
+h1{
+  text-decoration: underline;
+  color: #FF0000;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+h3{
+  font-family: "Gentium Book Basic", Georgia, serif;
+    color: #FFFF00;
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 2em 0;
+    }
+.intro,
+.about,
+.hometown{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+/* Footer styles
+    (all the styles inside the < footer > tag)
+*/
+.foot{
+  background-color: #000000;
+  margin-top: 5em;
+  padding: 4em 0;
+}
+.social{
+  padding: 2em;
+  list-style: none;
+}
+.social > li{
+  display: inline-block;
+  margin-right: 1em;
+}
+/* Responsive styles
+    (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
